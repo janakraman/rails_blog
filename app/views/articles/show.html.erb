@@ -1,0 +1,22 @@
+<h1>Article Detail</h1>
+
+<table>
+  <thead> 
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= @article.id %></td>
+      <td><%= @article.title %></td>
+      <td><%= @article.description %></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p><%= link_to 'Go back', :back %></p>
